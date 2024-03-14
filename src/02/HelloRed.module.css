@@ -1,0 +1,7 @@
+.ch1 {
+    color: red;
+    display: flex;
+    font-size: 100px;
+}
+
+/* 똑같이 ch1로 묶여있지만 module.css를 만들어서 따로 먹히게 쓸 수 있음 */

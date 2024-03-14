@@ -16,6 +16,7 @@ export default MainHeader;
 //        <header className="App-header">
 //          <img src={logo} className="App-logo" alt="logo" />
 //        </header>
+// 리턴문 안에는 jsx문법
 // jsx문법, className
 // jsx문법에서는 카멜표기법따름
 //자바스크립트 예약어와 같은 속성명을 사용할 수 없음

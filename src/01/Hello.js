@@ -3,7 +3,7 @@ import './Hello.css'
 function Hello() {
     let n = Math.floor(Math.random() * 99) + 1; //이 변수 n은 중괄호로 써야됨(헬로뒤에) // 헬로뒤에 그냥 n 쓰면 그냥 글자일 뿐
 
-    const st1 = {//객체로 만들어서 써야함 오브젝트로 // 이걸 헬로에 적용(아래)
+    const st1 = {//객체로 만들어서 써야함 오브젝트로(인라인 스타일?스타일시트? (?)) // 이걸 헬로에 적용(아래)
         backgroundColor: "darkblue",//오브젝트니까 세미콜론 아니고 , //카멜표기법으로 써야 함
         color: "white"
     }

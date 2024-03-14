@@ -7,9 +7,9 @@ import App from './App';//.js 생략되어있음 //그런데 App.js, 자바스�
 
 const root = ReactDOM.createRoot(document.getElementById('root'));//index.html의 div를 가지고와서//리액트는 가상돔을 쓴다, 가상돔을 하나 만든다
 root.render(//루트에다가 렌더(갖다붙인다) 앱을 갖다붙임 //컴퍼넌트는 함수, 컴퍼넌트를 만든다 > 함수는 리턴값이 있지 그 리턴된게(html태그) 여기에 박힘
-  <React.StrictMode>
+  //<React.StrictMode>
     <App />
-  </React.StrictMode>
+  //</React.StrictMode>
 );//내가 만든 컴퍼넌트를 <App />처럼 쓸거잖음(태그처럼 > 사용자정의 태그) > 컴퍼넌트는 대문자로 시작, 소문자로 시작하면 일반 html이라 생각
 //컴퍼넌트는 내가 만드는 태그인데 대문자로 시작해야 컴퍼넌트로취급(?)
 //앞으로 만드는 모든 컴퍼넌트는 사용자정의태그형식으로 <App />처럼
