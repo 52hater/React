@@ -1,7 +1,5 @@
-// import HelloCss from './02/HelloCss'
+import HelloCss from './02/HelloCss'
 import { FaHome } from "react-icons/fa";
-//import MyDiv1 from './03/MyDiv1';
-import MyList from "./04_2/MyList";
 
 export default function App() {
   return (
@@ -19,9 +17,8 @@ export default function App() {
         <div>리액트 실습</div>
         <div><FaHome className='text-2xl text-slate-200' /></div>
       </header>
-      <main className='grow flex flex-col w-full
-                      justify-center items-center'>
-        <MyList />
+      <main className='grow w-full'>
+        <HelloCss />
       </main>
       <footer className='flex justify-center items-center
                         h-20 bg-slate-800
