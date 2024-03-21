@@ -4,7 +4,9 @@ import { FaHome } from "react-icons/fa";
 // import BoxOfficeTbody from "./05_pro_1/BoxOfficeTbody";
 //import MyDiv1 from './03/MyDiv1';
 // import MyListMain from "./04_pro/MyListMain";
-import Lotto from "./06/Lotto";
+//import Lotto from "./06/Lotto";
+//import FoodCardMain from "./07/FoodCardMain";
+import MyClock from "./08/MyClock"
 
 export default function App() {
   return (
@@ -26,7 +28,9 @@ export default function App() {
                       justify-center items-center'>
         {/* <MyListMain /> */}
         {/* <BoxOfficeTb /> */}
-        <Lotto />
+        {/* <Lotto /> */}
+        <MyClock />
+        
       </main>
       <footer className='flex justify-center items-center
                         h-20 bg-slate-800
