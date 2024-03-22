@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import TrafficNav from "./TrafficNav";
 
 export default function TrafficMain() {
+    //도로교통공단_사고유형별 교통사고 통계
 
     //09 > useState, useEffect 공부의 정수
     //자바스크립트 fetch문법 그냥 저렇게 써
