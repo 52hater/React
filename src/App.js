@@ -6,7 +6,8 @@ import { FaHome } from "react-icons/fa";
 // import MyListMain from "./04_pro/MyListMain";
 //import Lotto from "./06/Lotto";
 //import FoodCardMain from "./07/FoodCardMain";
-import MyClock from "./08/MyClock"
+//import MyClock from "./08/MyClock"
+import TrafficMain from "./09/TrafficMain";
 
 export default function App() {
   return (
@@ -29,7 +30,8 @@ export default function App() {
         {/* <MyListMain /> */}
         {/* <BoxOfficeTb /> */}
         {/* <Lotto /> */}
-        <MyClock />
+        {/* <MyClock /> */}
+        <TrafficMain />
         
       </main>
       <footer className='flex justify-center items-center
