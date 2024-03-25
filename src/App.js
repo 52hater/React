@@ -7,7 +7,10 @@ import { FaHome } from "react-icons/fa";
 //import Lotto from "./06/Lotto";
 //import FoodCardMain from "./07/FoodCardMain";
 //import MyClock from "./08/MyClock"
-import TrafficMain from "./09/TrafficMain";
+//import TrafficMain from "./09/TrafficMain";
+//import RefVal from "./10/RefVal";
+//import RefInput from "./10/RefInput";
+import BoxOffice from "./11_BoxOffice/BoxOffice";
 
 export default function App() {
   return (
@@ -31,7 +34,10 @@ export default function App() {
         {/* <BoxOfficeTb /> */}
         {/* <Lotto /> */}
         {/* <MyClock /> */}
-        <TrafficMain />
+        {/* <TrafficMain /> */}
+        {/* <RefVal /> */}
+        {/* <RefInput /> */}
+        <BoxOffice />
         
       </main>
       <footer className='flex justify-center items-center
