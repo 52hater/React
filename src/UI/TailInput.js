@@ -6,7 +6,6 @@ export default function TailInput({ type, inputRef, ph, handleChange }) {
             ref={inputRef}
             onChange={handleChange}
             //여기가 중요함 여기는 반드시 ref라고 되어있어야하고 지금 inputRef라고 되어있는곳은 알아서 식별하기쉽게
-            id="first_name"
             className="bg-gray-50 border 
                     border-gray-300 
                     text-gray-900 

@@ -10,7 +10,9 @@ import { FaHome } from "react-icons/fa";
 //import TrafficMain from "./09/TrafficMain";
 //import RefVal from "./10/RefVal";
 //import RefInput from "./10/RefInput";
-import BoxOffice from "./11_BoxOffice/BoxOffice";
+//import BoxOffice from "./11_BoxOffice/BoxOffice";
+//import GalleryCard from "./11_2/GalleryCard";
+import GalleryMain from "./11_2/GalleryMain";
 
 export default function App() {
   return (
@@ -37,7 +39,9 @@ export default function App() {
         {/* <TrafficMain /> */}
         {/* <RefVal /> */}
         {/* <RefInput /> */}
-        <BoxOffice />
+        {/* <BoxOffice /> */}
+        {/* <GalleryCard /> */}
+        <GalleryMain />
         
       </main>
       <footer className='flex justify-center items-center
